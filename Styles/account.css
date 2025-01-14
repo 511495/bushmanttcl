@@ -1,0 +1,72 @@
+
+.success-message {
+    color: green;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.account-section {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #6b1508;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.passworddd{
+    color: #6b1508;
+}
+
+.emailandphone{
+    color: #6b1508;
+}
+
+.accountdetails{
+    color: #6b1508;
+}
+
+
+.verification-code-container {
+    display: flex;
+    align-items: center; 
+}
+
+.verification-code-container input[type="text"] {
+    width: 100px;
+}
+
+.verification-code-container button {
+    margin-left: 20px; 
+}
+
